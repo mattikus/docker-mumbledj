@@ -19,3 +19,4 @@ RUN apk add --update \
   && apk del gcc go git musl-dev && rm -rf /var/cache/apk/* /pkg /src
 
 ENTRYPOINT ["/bin/mumbledj"]
+CMD ["--config", "/etc/mumbledj.yaml"]
