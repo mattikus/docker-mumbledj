@@ -1,5 +1,3 @@
-# mumbledj
-
 ## Description
 
 A small container for running the glorious [mumbledj](https://github.com/matthieugrieger/mumbledj) application for your [mumble](https://www.mumble.info) server built from an Alpine base.
