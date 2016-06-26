@@ -2,9 +2,7 @@
 
 ## Description
 
-A small container for running the glorious
-[mumbledj](https://github.com/matthieugrieger/mumbledj) application for your
-[mumble](https://www.mumble.info) server built from an Alpine base.
+A small container for running the glorious [mumbledj](https://github.com/matthieugrieger/mumbledj) application for your [mumble](https://www.mumble.info) server built from an Alpine base.
 
 ## Usage
 
@@ -18,9 +16,7 @@ $ docker run -d mattikus/murmur --server <Mumble Server IP> --port <Mumble Serve
 
 ### Getting API Keys
 
-This application requires either a YouTube or SoundCloud API key to function
-well. See the [mumbledj documentation](https://github.com/matthieugrieger/mumbledj#youtube-api-key)
-for instructions on how to acquire these keys.
+This application requires either a YouTube or SoundCloud API key to function well. See the [mumbledj documentation](https://github.com/matthieugrieger/mumbledj#youtube-api-key) for instructions on how to acquire these keys.
 
 ### Providing your own configuration
 
