@@ -16,7 +16,8 @@ RUN apk add --update \
   && wget https://yt-dl.org/downloads/latest/youtube-dl -O /bin/youtube-dl && chmod a+x /bin/youtube-dl \
   && GOPATH=/ go get -u -v github.com/matthieugrieger/mumbledj \
   && mkdir -p /root/.config \
-  && apk del gcc go git musl-dev && rm -rf /var/cache/apk/* /pkg /src
+  && apk del gcc go git musl-dev && rm -rf /var/cache/apk/* /pkg /src \
+  && youtube-dl -U
 
 ENTRYPOINT ["/bin/mumbledj"]
 CMD ["--config", "/etc/mumbledj.yaml"]
